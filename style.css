@@ -1,0 +1,61 @@
+body {
+    /* background-image: url("images/img.jpg"); */
+    background-color:WhiteSmoke ;
+    font-family: 'Courgette', cursive;
+    margin-top: 10%;
+   }
+
+
+
+
+/* 
+   WhiteSmoke
+RGBA(211, 211, 211, 0.548)
+RGB(78, 78, 78)
+RGB(39, 39, 39) */
+
+
+
+
+header{
+text-align: center;
+margin-bottom: 20px;
+font-weight: bolder;
+
+}
+footer{
+    text-align: center;
+    margin-top: 8%;
+    font-weight: bolder;
+}
+
+table{
+    position: absolute;
+    margin-bottom: 70%;
+    right: 10%;
+}
+table , th , td {
+    border: 2px solid WhiteSmoke;
+    background-color: RGB(78, 78, 78);
+    color: WhiteSmoke; 
+    border-collapse: collapse;
+    padding: 30px;
+    text-align: center;
+    
+ }
+  th {
+      background-color: RGB(39, 39, 39);
+      padding: 15px;
+  }
+ 
+   #imagbackground{
+    background-image: url("images/img.jpg"); 
+    /* height: auto; */
+    padding: 20%;
+
+  } 
+  form{
+      border-radius: 4px;
+      text-align: center;
+
+  }
